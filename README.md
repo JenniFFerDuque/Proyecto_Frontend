@@ -138,9 +138,9 @@ npm run dev
 Este comando levanta **dos servicios a la vez** (gracias a `concurrently`):
 
 1. **PocketBase** en `http://localhost:8090` (base de datos + API + panel admin).
-2. **React Router (Vite)** en `http://localhost:3003` (la aplicación web).
+2. **React Router (Vite)** en `http://localhost:3000` (la aplicación web).
 
-Abre <http://localhost:3003> en tu navegador. Deberías ver la página de inicio
+Abre <http://localhost:3000> en tu navegador. Deberías ver la página de inicio
 del portal de noticias.
 
 ### Otros scripts útiles

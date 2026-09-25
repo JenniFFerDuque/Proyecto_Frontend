@@ -1,0 +1,7 @@
+import { Link } from 'react-router';
+import { ArrowDownRight, ArrowUpRight } from 'lucide-react';
+import type { NewsItem } from '@/lib/news';
+
+export function Hero({ featured }: { featured?: NewsItem }) {
+  return <section className="hero"><div className="hero-inner"><div className="hero-topline"><span>UN ESPACIO PARA MIRAR MÁS ALLÁ</span><span>ACTUALIDAD · CULTURA · HISTORIAS</span></div><div className="hero-heading"><span className="eyebrow light"><span className="eyebrow-line"/> BIENVENIDOS A JENNIFFER DUQUE NEWS</span><h1>Noticias que<br/><em>te hacen mirar más de cerca.</em></h1><div className="hero-bottom-row"><p>Contexto, cultura y buena información para entender lo que pasa y por qué importa.</p><Link to="/noticias" className="button-light">Explorar noticias <ArrowUpRight size={19}/></Link></div></div>{featured && <Link to={`/noticias/${featured.id}`} className="hero-feature"><div className="hero-feature-image"><img src={featured.image} alt={featured.title} width="1400" height="650" fetchPriority="high"/></div><div className="hero-feature-overlay"/><div className="hero-feature-caption"><span className="hero-caption-rail">EN PORTADA <ArrowDownRight size={17}/></span><div><span className="hero-feature-category">{featured.category} / HISTORIA DESTACADA</span><h2>{featured.title}</h2></div><span className="round-arrow"><ArrowUpRight size={22}/></span></div></Link>}</div></section>;
+}

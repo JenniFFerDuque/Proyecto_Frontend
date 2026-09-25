@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Jenniffer Duque — Portal de noticias
 
 Portal de noticias construido con **React Router 8 (framework mode, SSR)**,
@@ -191,9 +190,3 @@ apps/
 
 Para una explicación más detallada del código, consulta
 [`docs/PROYECTO.md`](docs/PROYECTO.md).
-
----
-
-=======
-# Proyecto_Frontend
->>>>>>> 0100cf3eeaafe2d770530680a0a5197ae34f4f97

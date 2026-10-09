@@ -6,6 +6,8 @@ RUN apt-get update \
   && apt-get install -y --no-install-recommends ca-certificates curl procps unzip \
   && rm -rf /var/lib/apt/lists/*
 
+RUN npm install --global npm@11.6.2
+
 COPY package.json package-lock.json ./
 COPY apps/web/package.json apps/web/package.json
 COPY apps/pocketbase/package.json apps/pocketbase/package.json

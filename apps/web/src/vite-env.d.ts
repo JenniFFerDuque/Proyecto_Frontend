@@ -1,5 +1,9 @@
 /// <reference types="vite/client" />
 
+interface ImportMetaEnv {
+	readonly VITE_POCKETBASE_URL?: string;
+}
+
 type HorizonsBannerAttrs = {
 	src: string;
 	'template-redirect-url': string;

@@ -18,7 +18,7 @@ if (existsSync(envFile)) {
     if (separatorIndex === -1) continue;
     const key = trimmed.slice(0, separatorIndex).trim();
     const value = trimmed.slice(separatorIndex + 1).trim();
-    if (key) {
+    if (key && process.env[key] === undefined) {
       process.env[key] = value;
     }
   }
@@ -61,17 +61,30 @@ const binary = candidates.find((candidate) => {
     return isWindowsExecutable(candidate) || path.extname(candidate).toLowerCase() === '.cmd' || path.extname(candidate).toLowerCase() === '.bat';
   }
 
-  return !isElfBinary(candidate) || path.extname(candidate) === '';
+  return isElfBinary(candidate);
 });
 
 if (!binary) {
-  console.error('PocketBase binary not found for this OS.');
+  console.error(`PocketBase binary not found for ${process.platform}.`);
   console.error(`Expected one of: ${candidates.map((candidate) => path.basename(candidate)).join(', ')}`);
-  console.error('The file in apps/pocketbase/ is a Linux binary, which cannot run on Windows. Download the Windows PocketBase binary and place it as apps/pocketbase/pocketbase.exe.');
+  if (process.platform === 'win32') {
+    console.error('Download the Windows PocketBase binary and place it as apps/pocketbase/pocketbase.exe.');
+  } else {
+    console.error('Build with the repository Dockerfile to install the matching Linux PocketBase binary.');
+  }
   process.exit(1);
 }
 
 const args = process.argv.slice(2);
+const port = process.env.PORT;
+if (port) {
+  for (let index = 0; index < args.length; index += 1) {
+    if (args[index].startsWith('--http=')) {
+      args[index] = args[index].replace(/:\d+$/, `:${port}`);
+    }
+  }
+}
+
 const result = spawnSync(binary, args, {
   cwd: appDir,
   stdio: 'inherit',

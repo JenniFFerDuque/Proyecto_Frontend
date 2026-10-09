@@ -158,6 +158,35 @@ del portal de noticias.
 | `npm run lint` | Revisa el código con ESLint. |
 | `npm run typecheck` | Verifica los tipos de TypeScript. |
 
+---
+
+## 🚂 Desplegar en Railway
+
+El repositorio incluye un `Dockerfile` que instala la versión Linux de
+PocketBase y compila la web. En Railway crea **dos servicios desde el mismo
+repositorio** y selecciona el builder **Dockerfile** en ambos:
+
+1. **PocketBase:** asigna un volumen persistente montado en `/data` y crea un
+   dominio público para la API. Usa `npm run start:pocketbase` como comando de
+   inicio. Define `PB_ENCRYPTION_KEY` (32 caracteres aleatorios),
+   `PB_SUPERUSER_EMAIL` y `PB_SUPERUSER_PASSWORD` como variables privadas.
+2. **Web:** usa `npm run start:web` como comando de inicio y genera un dominio
+   público. Configura:
+   - `POCKETBASE_URL`: URL privada de PocketBase, por ejemplo
+     `http://${{PocketBase.RAILWAY_PRIVATE_DOMAIN}}:${{PocketBase.PORT}}`.
+   - `VITE_POCKETBASE_URL`: URL pública de PocketBase, por ejemplo
+     `https://${{PocketBase.RAILWAY_PUBLIC_DOMAIN}}`. Esta variable se usa al
+     compilar la web; después de cambiarla, vuelve a desplegar ese servicio.
+
+En Railway puedes referenciar variables del otro servicio con sus referencias
+de variables; usa el dominio privado para `POCKETBASE_URL` y el dominio público
+para `VITE_POCKETBASE_URL`. El puerto que Railway asigne al servicio PocketBase
+se utiliza automáticamente al arrancar. No copies al panel de Railway las
+credenciales de desarrollo del archivo `.env`.
+
+Cuando ambos servicios estén listos, visita el dominio de la web y prueba las
+rutas `/noticias` y `/contacto`. El volumen de PocketBase es necesario para
+conservar registros y archivos entre despliegues.
 
 ---
 

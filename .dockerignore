@@ -1,0 +1,8 @@
+.git
+node_modules
+dist
+apps/*/node_modules
+apps/*/.env
+apps/pocketbase/pb_data
+apps/pocketbase/pocketbase
+apps/pocketbase/pocketbase.exe

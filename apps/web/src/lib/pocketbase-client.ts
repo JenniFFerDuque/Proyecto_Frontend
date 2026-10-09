@@ -1,6 +1,7 @@
 import PocketBase from 'pocketbase';
 
-const POCKETBASE_API_URL = '/hcgi/platform';
+const POCKETBASE_API_URL =
+  import.meta.env.VITE_POCKETBASE_URL || '/hcgi/platform';
 
 const pocketbaseClient = new PocketBase(POCKETBASE_API_URL);
 

@@ -17,8 +17,15 @@ const baseUrl = process.env.POCKETBASE_URL || 'http://localhost:8090';
  * Se usa en el inicio, el catálogo, el sitemap, el RSS y el llms.txt.
  */
 export async function getNews(): Promise<NewsItem[]> {
-  const response = await fetch(`${baseUrl}/api/collections/news/records?perPage=100&sort=-created`);
-  if (!response.ok) throw new Error(`No se pudieron cargar las noticias: ${response.status} ${response.statusText}`);
+  const response = await fetch(
+    `${baseUrl}/api/collections/news/records?perPage=100&sort=-created`,
+  );
+  if (!response.ok) {
+    throw new Error(
+      `No se pudieron cargar las noticias: ${response.status} ${response.statusText}`,
+    );
+  }
+
   const data = await response.json() as { items: NewsItem[] };
   return data.items;
 }
@@ -28,8 +35,16 @@ export async function getNews(): Promise<NewsItem[]> {
  * Se usa en la página de detalle de noticia (/noticias/:id).
  */
 export async function getNewsItem(id: string): Promise<NewsItem | null> {
-  const response = await fetch(`${baseUrl}/api/collections/news/records/${encodeURIComponent(id)}`);
+  const response = await fetch(
+    `${baseUrl}/api/collections/news/records/${encodeURIComponent(id)}`,
+  );
   if (response.status === 404) return null;
-  if (!response.ok) throw new Error(`No se pudo cargar la noticia: ${response.status} ${response.statusText}`);
+
+  if (!response.ok) {
+    throw new Error(
+      `No se pudo cargar la noticia: ${response.status} ${response.statusText}`,
+    );
+  }
+
   return response.json() as Promise<NewsItem>;
 }

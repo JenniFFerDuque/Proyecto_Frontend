@@ -576,3 +576,329 @@
 - url: http://localhost:3003/noticias/215b5648dofpzzu
 - via: pushState
 
+## 2026-09-25 01:48:48.743Z load
+- url: http://localhost:3000/
+- title: Jenniffer Duque News | Noticias de actualidad, cultura y contexto
+
+## 2026-09-25 01:48:50.542Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-09-25 01:57:31.437Z load
+- url: http://localhost:3000/
+- title: Jenniffer Duque News | Noticias de actualidad, cultura y contexto
+
+## 2026-09-25 02:10:21.848Z load
+- url: http://localhost:3000/
+- title: Jenniffer Duque News | Noticias de actualidad, cultura y contexto
+
+## 2026-09-25 02:19:21.038Z load
+- url: http://localhost:3000/
+- title: Jenniffer Duque News | Noticias de actualidad, cultura y contexto
+
+## 2026-09-25 02:19:22.194Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-09-25 15:21:56.663Z load
+- url: http://localhost:3000/
+- title: Jenniffer Duque News | Noticias de actualidad, cultura y contexto
+
+## 2026-10-09 21:12:58.258Z load
+- url: http://localhost:3000/
+- title: Jenniffer Duque News | Noticias de actualidad, cultura y contexto
+
+## 2026-10-09 21:12:59.176Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-09 21:13:09.431Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Noticias"}
+
+## 2026-10-09 21:13:10.067Z navigate
+- url: http://localhost:3000/noticias
+- via: pushState
+
+## 2026-10-09 21:13:15.362Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bogotá abre nuevos caminos para moverse en bicicleta"}
+
+## 2026-10-09 21:13:15.566Z navigate
+- url: http://localhost:3000/noticias/qz1bda0n4y68qq0
+- via: pushState
+
+## 2026-10-09 21:13:21.061Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Explorar más noticias "}
+
+## 2026-10-09 21:13:21.525Z navigate
+- url: http://localhost:3000/noticias
+- via: pushState
+
+## 2026-10-09 21:13:27.374Z navigate
+- url: http://localhost:3000/noticias/qz1bda0n4y68qq0
+- via: popstate
+
+## 2026-10-09 21:13:31.330Z navigate
+- url: http://localhost:3000/noticias
+- via: popstate
+
+## 2026-10-09 21:13:35.419Z navigate
+- url: http://localhost:3000/
+- via: popstate
+
+## 2026-10-09 21:13:37.547Z click
+- element: {"tag":"a","role":null,"ariaLabel":"Jenniffer Duque News, inicio","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"JD.JENNIFFERDUQUENEWS"}
+
+## 2026-10-09 21:13:37.739Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-09 21:13:39.447Z click
+- element: {"tag":"a","role":null,"ariaLabel":"Jenniffer Duque News, inicio","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"JD.JENNIFFERDUQUENEWS"}
+
+## 2026-10-09 21:13:39.811Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-09 21:14:00.880Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Noticias"}
+
+## 2026-10-09 21:14:00.909Z navigate
+- url: http://localhost:3000/noticias
+- via: pushState
+
+## 2026-10-09 21:14:04.711Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Guardar en favoritos","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 21:14:07.355Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Favoritos"}
+
+## 2026-10-09 21:14:08.273Z navigate
+- url: http://localhost:3000/favoritos
+- via: pushState
+
+## 2026-10-09 21:14:21.023Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Publicar"}
+
+## 2026-10-09 21:14:22.249Z navigate
+- url: http://localhost:3000/gestion
+- via: pushState
+
+## 2026-10-09 21:14:27.268Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Iniciar sesiónCrear cuentaCorreo electrónicoContraseñaEntrar a mi espacio "}
+
+## 2026-10-09 21:14:27.973Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Crear cuenta"}
+
+## 2026-10-09 21:14:29.122Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Iniciar sesión"}
+
+## 2026-10-09 21:14:31.158Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Contacto"}
+
+## 2026-10-09 21:14:32.198Z navigate
+- url: http://localhost:3000/contacto
+- via: pushState
+
+## 2026-10-09 21:14:38.972Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Hablemos "}
+
+## 2026-10-09 21:14:40.686Z navigate
+- url: http://localhost:3000/contacto
+- via: replaceState
+
+## 2026-10-09 21:14:40.767Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Hablemos "}
+
+## 2026-10-09 21:14:40.787Z navigate
+- url: http://localhost:3000/contacto
+- via: replaceState
+
+## 2026-10-09 21:14:43.655Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Hablemos "}
+
+## 2026-10-09 21:14:43.705Z navigate
+- url: http://localhost:3000/contacto
+- via: replaceState
+
+## 2026-10-09 21:14:47.621Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"name","type":null,"id":"contact-name","placeholder":"¿Cómo te llamas?","label":"name","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 21:14:47.835Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"name","type":null,"id":"contact-name","placeholder":"¿Cómo te llamas?","label":"name","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 21:14:48.835Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" ESTAMOS EN CONTACTOHablemos detu historia.¿Tienes una idea, una pregunta o algo que quieras compartir? Me encantaría leerte.OTRA FORMA DE CONECTARhola@jennifferduque.com01 / ESCRÍBENOSRESPONDEMOS LO ANTES POSIBLEDéjanos un mensajeTu nombre *Correo electrónico *Tu mensaje *Enviar mensaje * Campos obligatorios"}
+
+## 2026-10-09 21:14:51.091Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Inicio"}
+
+## 2026-10-09 21:14:51.930Z navigate
+- url: http://localhost:3000/
+- via: pushState
+
+## 2026-10-09 21:14:59.869Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Escríbenos "}
+
+## 2026-10-09 21:14:59.889Z navigate
+- url: http://localhost:3000/contacto
+- via: pushState
+
+## 2026-10-09 21:15:02.248Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"JD.JENNIFFERDUQUENEWSInicioNoticiasFavoritosPublicarContactoHablemos "}
+
+## 2026-10-09 21:15:03.035Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Inicio"}
+
+## 2026-10-09 21:15:03.552Z navigate
+- url: http://localhost:3000/
+- via: pushState
+
+## 2026-10-09 21:15:48.184Z load
+- url: http://localhost:3000/
+- title: Jenniffer Duque News | Noticias de actualidad, cultura y contexto
+
+## 2026-10-09 21:15:48.667Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-09 21:17:21.151Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ver historia "}
+
+## 2026-10-09 21:17:21.706Z navigate
+- url: http://localhost:3000/noticias/215b5648dofpzzu
+- via: pushState
+
+## 2026-10-09 21:21:51.040Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Volver a noticias"}
+
+## 2026-10-09 21:21:52.000Z navigate
+- url: http://localhost:3000/noticias
+- via: pushState
+
+## 2026-10-09 21:23:43.285Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Buscar una historia...","label":"Buscar noticias","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 21:23:43.327Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Buscar una historia...","label":"Buscar noticias","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 21:24:01.175Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Buscar una historia...","label":"Buscar noticias","value":"Trabaj","valueLength":6,"text":""}
+
+## 2026-10-09 21:24:01.177Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Buscar una historia...","label":"Buscar noticias","value":"Trabaj","valueLength":6,"text":""}
+
+## 2026-10-09 21:24:04.570Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Buscar una historia...","label":"Buscar noticias","value":"Trabaj","valueLength":6,"text":""}
+
+## 2026-10-09 21:24:05.530Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Buscar una historia...","label":"Buscar noticias","value":"Trabaj","valueLength":6,"text":""}
+
+## 2026-10-09 21:24:07.208Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Buscar una historia...","label":"Buscar noticias","value":"Trabaj","valueLength":6,"text":""}
+
+## 2026-10-09 21:24:08.124Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Buscar una historia...","label":"Buscar noticias","value":"Trabaj","valueLength":6,"text":""}
+
+## 2026-10-09 21:24:36.961Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Buscar una historia...","label":"Buscar noticias","value":"Trabaj","valueLength":6,"text":""}
+
+## 2026-10-09 21:24:39.435Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Buscar una historia...","label":"Buscar noticias","value":"Trabaj","valueLength":6,"text":""}
+
+## 2026-10-09 21:24:39.654Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"El trabajo artesanal mantiene vivas las historias del Caribe"}
+
+## 2026-10-09 21:24:40.679Z navigate
+- url: http://localhost:3000/noticias/7jb6w23bw4xusgt
+- via: pushState
+
+## 2026-10-09 21:25:05.218Z click
+- element: {"tag":"h1","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"El trabajo artesanal mantiene vivas las historias del Caribe"}
+
+## 2026-10-09 21:25:05.934Z click
+- element: {"tag":"h1","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"El trabajo artesanal mantiene vivas las historias del Caribe"}
+
+## 2026-10-09 21:25:41.794Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Volver a noticias"}
+
+## 2026-10-09 21:25:42.522Z navigate
+- url: http://localhost:3000/noticias
+- via: pushState
+
+## 2026-10-09 21:25:45.385Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Favoritos"}
+
+## 2026-10-09 21:25:45.548Z navigate
+- url: http://localhost:3000/favoritos
+- via: pushState
+
+## 2026-10-09 21:26:26.742Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Contacto"}
+
+## 2026-10-09 21:26:26.827Z navigate
+- url: http://localhost:3000/contacto
+- via: pushState
+
+## 2026-10-09 21:27:23.232Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Hablemos "}
+
+## 2026-10-09 21:27:23.577Z navigate
+- url: http://localhost:3000/contacto
+- via: replaceState
+
+## 2026-10-09 21:27:23.926Z click
+- element: {"tag":"nav","role":null,"ariaLabel":"Navegación principal","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"InicioNoticiasFavoritosPublicarContacto"}
+
+## 2026-10-09 21:27:24.365Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Publicar"}
+
+## 2026-10-09 21:27:24.406Z navigate
+- url: http://localhost:3000/gestion
+- via: pushState
+
+## 2026-10-09 21:27:49.123Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Contacto"}
+
+## 2026-10-09 21:27:49.448Z navigate
+- url: http://localhost:3000/contacto
+- via: pushState
+
+## 2026-10-09 21:27:51.866Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Favoritos"}
+
+## 2026-10-09 21:27:52.367Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Publicar"}
+
+## 2026-10-09 21:27:52.409Z network.error
+- method: GET
+- url: http://localhost:3000/contacto
+- message: signal is aborted without reason
+- durationMs: 542
+
+## 2026-10-09 21:27:52.441Z navigate
+- url: http://localhost:3000/gestion
+- via: pushState
+
+## 2026-10-09 21:27:54.859Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Crear cuenta"}
+
+## 2026-10-09 21:27:56.470Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"JD.JENNIFFERDUQUENEWSInicioNoticiasFavoritosPublicarContactoHablemos "}
+
+## 2026-10-09 21:27:57.081Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Contacto"}
+
+## 2026-10-09 21:27:57.110Z navigate
+- url: http://localhost:3000/contacto
+- via: pushState
+
+## 2026-10-09 21:27:57.860Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Hablemos "}
+
+## 2026-10-09 21:27:58.040Z navigate
+- url: http://localhost:3000/contacto
+- via: replaceState
+
+## 2026-10-09 21:55:54.083Z click
+- element: {"tag":"h1","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Hablemos detu historia."}
+

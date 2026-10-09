@@ -6,7 +6,9 @@ import { LatestNews } from '@/components/home/latest-news';
 import { AboutStrip } from '@/components/home/about-strip';
 import { HomeCta } from '@/components/home/cta';
 
-export async function loader() { return { news: await getNews() }; }
+export async function loader() {
+  return { news: await getNews() };
+}
 
 export function meta({ matches, location }: Route.MetaArgs) {
   return seo({ matches, location }, {
@@ -18,5 +20,14 @@ export function meta({ matches, location }: Route.MetaArgs) {
 }
 
 export default function HomePage({ loaderData }: Route.ComponentProps) {
-  return <main><Hero featured={loaderData.news[0]}/><LatestNews items={loaderData.news.slice(1)}/><AboutStrip/><HomeCta/></main>;
+  const [featuredNews, ...latestNews] = loaderData.news;
+
+  return (
+    <main>
+      <Hero featured={featuredNews} />
+      <LatestNews items={latestNews} />
+      <AboutStrip />
+      <HomeCta />
+    </main>
+  );
 }

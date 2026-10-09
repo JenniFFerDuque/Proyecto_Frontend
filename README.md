@@ -11,6 +11,11 @@ Visual Studio Code, instalar lo necesario, configurarlo y ejecutarlo en tu
 computador. También documenta la estructura del proyecto, las rutas
 principales y los módulos de favoritos, noticias, contacto y gestión.
 
+> **Guía para revisar el proyecto:** consulta
+> [`docs/GUIA_EVIDENCIAS.md`](docs/GUIA_EVIDENCIAS.md) para ubicar el código
+> estructurado, el uso de HTML semántico con JSX, los estilos CSS y el
+> renderizado de noticias a partir de datos JSON.
+
 ---
 
 ## 📋 Requisitos previos

@@ -902,3 +902,36 @@
 ## 2026-10-09 21:55:54.083Z click
 - element: {"tag":"h1","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Hablemos detu historia."}
 
+## 2026-10-10 00:13:05.211Z load
+- url: http://localhost:3000/noticias
+- title: Noticias | Jenniffer Duque News
+
+## 2026-10-10 00:13:09.751Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ciudad"}
+
+## 2026-10-10 00:13:11.472Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Cultura"}
+
+## 2026-10-10 00:13:13.150Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ciudad"}
+
+## 2026-10-10 00:13:13.883Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ciudad"}
+
+## 2026-10-10 00:13:14.106Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ciudad"}
+
+## 2026-10-10 00:13:17.923Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Historias"}
+
+## 2026-10-10 00:13:19.089Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Medio ambiente"}
+
+## 2026-10-10 00:13:41.764Z load
+- url: http://localhost:3000/noticias
+- title: Noticias | Jenniffer Duque News
+
+## 2026-10-10 00:13:42.277Z navigate
+- url: http://localhost:3000/noticias
+- via: replaceState
+
